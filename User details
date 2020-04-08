@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>creating user details</title>
+	<style>
+		body{
+			background-color: forestgreen;
+			color:navy;
+		}
+		h1{
+			background-color: cyan;
+			margin :0px;
+		}
+	</style>
+</head>
+<body>
+	<h1 align="center">User details</h1>
+	<form>
+	<table width="100%">
+		<tr>
+				<td>User name</td>
+				<td>
+				<input type="text">
+			</td>
+		</tr>
+		<tr>
+				<td>Password</td>
+				<td>
+				<input type="text">
+			</td>
+		</tr>
+		<tr>
+				<td>Select your hobby</td>
+				<td>
+					<input type="checkbox">Sleeping<br>
+					<input type="checkbox">Playing<br>
+					<input type="checkbox">Browsing
+				</td>
+			</tr>
+			<tr>
+				<td>Select Gender</td>
+				<td>
+					<input type="checkbox">Male<br>
+					<input type="checkbox">Female<br>
+					<input type="checkbox">Other
+				</td>	
+		</tr>
+		<tr>
+				<td>Select Qulification</td>
+				<td>
+					<select>
+					 <option value="B.tech">B.tech</option>
+                      <option value="+2science">+2Science</option>
+                       <option value="Matric">Matric</option>
+                   </select>
+				</td>	
+		</tr>
+		<tr>
+			<td>Upload Pic</td>
+			<td>
+				 <input type="file" id="img" name="img" accept="image/*">
+				</td>
+		</tr>
+		<div>
+			<tr>
+				<td>
+					<input type="submit">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="reset">
+				</td>
+			</tr>
+
+		</div>
+	</table>
+</form>
+</body>
+</html>
